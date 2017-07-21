@@ -1,9 +1,26 @@
-.navbar-right{
-	li{
-		a{
-			i{
-				padding-right: $iconright;
+.navbar-default{
+	.navbar-right{
+		li{
+			a{
+				color: $blanco;
+				i{
+					padding-right: $iconright;
+					color: $blanco;
+				}
 			}
 		}
 	}
+	.navbar-header{
+		.navbar-brand{
+		color: $blanco;
+		padding: $padding20;
+		}
+	}
+
+}
+.navbar-right{
+	.btn-default{
+				background-color: $rosadoboton;
+				color: $blanco;
+			}
 }
