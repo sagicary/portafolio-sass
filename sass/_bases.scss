@@ -1,11 +1,15 @@
 .navbar-default{
+	background-color: red;
 	.navbar-right{
+		.btn-default{
+				background-color: $rosadoboton;
+				color: $blanco;
+			}
 		li{
 			a{
 				color: $blanco;
 				i{
 					padding-right: $iconright;
-					color: $blanco;
 				}
 			}
 		}
@@ -18,9 +22,14 @@
 	}
 
 }
-.navbar-right{
-	.btn-default{
-				background-color: $rosadoboton;
-				color: $blanco;
-			}
+
+
+
+#carousel-example-generic{
+	position: absolute;
+	div{
+		div{
+			background-image: url($img1);
+		}
+	}
 }
