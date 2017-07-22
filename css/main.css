@@ -5803,19 +5803,48 @@ button.close {
   z-index: 1; }
   .navbar-default .navbar-right .btn-default {
     background-color: #E91E63;
-    color: white; }
+    color: white;
+    border: transparent;
+    padding: 15px 15px 15px 15px;
+    margin: 15px;
+    font-size: 12px; }
   .navbar-default .navbar-right li a {
-    color: white; }
+    color: white;
+    font-size: 12px;
+    padding-top: 30px; }
     .navbar-default .navbar-right li a i {
       padding-right: 10px; }
   .navbar-default .navbar-header .navbar-brand {
     color: white;
-    padding: 20px; }
+    padding: 20px;
+    margin: 15px;
+    font-weight: lighter; }
 
-.navbar {
-  z-index: 1; }
-
+/*.navbar{
+	z-index: 1;
+}*/
+/*SIN BORDE AL SER RESPONSIVE*/
 .navbar-default .navbar-toggle {
   border-color: transparent; }
+
+.carousel-caption h1 {
+  font-weight: bolder;
+  font-size: 70px; }
+.carousel-caption h4 {
+  padding-top: 20px; }
+
+.one {
+  padding-bottom: 20%; }
+
+.two {
+  padding-bottom: 15%; }
+
+.carousel-inner div .btn-default {
+  background-color: #E91E63;
+  color: white;
+  border: transparent;
+  padding: 15px 30px 15px 30px;
+  margin: 50px;
+  font-size: 12px; }
 
 /*# sourceMappingURL=main.css.map */

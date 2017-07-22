@@ -6,10 +6,16 @@
 		.btn-default{
 				background-color: $rosadoboton;
 				color: $blanco;
+				border: $transparente;
+				padding: 15px 15px 15px 15px;
+				margin: 15px;
+				font-size: 12px;
 			}
 		li{
 			a{
 				color: $blanco;
+				font-size: 12px;
+				padding-top: 30px;
 				i{
 					padding-right: $iconright;
 				}
@@ -20,13 +26,46 @@
 		.navbar-brand{
 		color: $blanco;
 		padding: $padding20;
+		margin: 15px;
+		font-weight: lighter;
 		}
 	}
 }
-.navbar{
+
+/*.navbar{
 	z-index: 1;
-}
+}*/
+/*SIN BORDE AL SER RESPONSIVE*/
 .navbar-default .navbar-toggle{
 	border-color: $transparente;	
+}
+.carousel-caption{
+	
+	h1{
+		font-weight: bolder;
+		font-size: 70px;
+	}
+	h4{
+		padding-top: 20px;
+	}
+}
+
+.one{
+	padding-bottom: 20%;
+}
+.two{
+	padding-bottom: 15%;
+}
+.carousel-inner{
+	div{
+		.btn-default{
+			background-color: $rosadoboton;
+			color: $blanco;
+			border: $transparente;
+			padding: 15px 30px 15px 30px;
+			margin: 50px;
+			font-size: 12px;
+		}
+	}
 }
 
