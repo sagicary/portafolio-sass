@@ -1,5 +1,7 @@
 .navbar-default{
-	background-color: red;
+	background-color: $transparente;
+	border: $transparente;
+	z-index: 1;
 	.navbar-right{
 		.btn-default{
 				background-color: $rosadoboton;
@@ -20,16 +22,11 @@
 		padding: $padding20;
 		}
 	}
-
+}
+.navbar{
+	z-index: 1;
+}
+.navbar-default .navbar-toggle{
+	border-color: $transparente;	
 }
 
-
-
-#carousel-example-generic{
-	position: absolute;
-	div{
-		div{
-			background-image: url($img1);
-		}
-	}
-}
