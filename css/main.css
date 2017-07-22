@@ -5797,6 +5797,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+body {
+  background-color: #E5E5E5; }
+
 .navbar-default {
   background-color: transparent;
   border: transparent;
@@ -5846,5 +5849,35 @@ button.close {
   padding: 15px 30px 15px 30px;
   margin: 50px;
   font-size: 12px; }
+
+#uno {
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 25px; }
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 50px; }
+  .carousel-caption h4 {
+    font-size: 12px;
+    padding-top: 5px; }
+
+  .one {
+    padding-top: 100px;
+    padding-bottom: 0px; }
+
+  .two {
+    padding-top: 100px;
+    padding-bottom: 0px; }
+
+  .carousel-inner div .btn-default {
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    font-size: 12px; }
+
+  .item {
+    height: 40vh; } }
 
 /*# sourceMappingURL=main.css.map */
