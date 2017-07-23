@@ -5880,7 +5880,10 @@ body {
 /*Primer Item*/
 #centro {
   background-color: white;
-  margin-top: -50px; }
+  margin-top: -50px;
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75); }
   #centro div h3 {
     color: #B5B5B5;
     font-size: 18px;
@@ -5935,10 +5938,6 @@ body {
       margin-bottom: 50px;
       margin-top: 50px; }
 
-@media (max-width: 768px) {
-  #segundo div iframe {
-    width: 100%;
-    height: 100%; } }
 #segundo:before {
   background-color: rgba(0, 0, 0, 0.8);
   content: "";
@@ -5949,5 +5948,74 @@ body {
   bottom: 0;
   left: 0;
   right: 0; }
+
+@media (max-width: 768px) {
+  #segundo div iframe {
+    width: 100%;
+    height: 100%; } }
+#tercero {
+  background-color: #F0F0F0; }
+  #tercero div h1 {
+    color: #3C4858;
+    padding-top: 70px;
+    font-weight: bold; }
+  #tercero div h4 {
+    color: #ADADAD;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 50px;
+    padding-top: 20px; }
+  #tercero .prod1, #tercero .prod2, #tercero .prod3, #tercero .prod4 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    width: 23%;
+    margin-right: 10px;
+    margin-bottom: 20px; }
+    #tercero .prod1 h6, #tercero .prod2 h6, #tercero .prod3 h6, #tercero .prod4 h6 {
+      color: #E91E63;
+      font-weight: bold; }
+    #tercero .prod1 .textt, #tercero .prod2 .textt, #tercero .prod3 .textt, #tercero .prod4 .textt {
+      color: #3C4858;
+      font-weight: bold;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+    #tercero .prod1 p, #tercero .prod2 p, #tercero .prod3 p, #tercero .prod4 p {
+      font-size: 14px; }
+    #tercero .prod1 img, #tercero .prod2 img, #tercero .prod3 img, #tercero .prod4 img {
+      border-radius: 10px;
+      margin-top: -40px; }
+    #tercero .prod1 .imgprod:hover, #tercero .prod2 .imgprod:hover, #tercero .prod3 .imgprod:hover, #tercero .prod4 .imgprod:hover {
+      margin-top: -50px;
+      border-radius: 10px;
+      -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75); }
+    #tercero .prod1 div span, #tercero .prod2 div span, #tercero .prod3 div span, #tercero .prod4 div span {
+      color: #8B929C;
+      font-weight: lighter;
+      font-size: 21px; }
+      #tercero .prod1 div span i, #tercero .prod2 div span i, #tercero .prod3 div span i, #tercero .prod4 div span i {
+        font-size: 20px;
+        padding-left: 50px; }
+
+@media (max-width: 768px) {
+  .fondogris {
+    background-color: #F0F0F0; }
+
+  #tercero .prod1 {
+    width: 100%;
+    margin-bottom: 70px; }
+  #tercero .prod2 {
+    width: 100%;
+    margin-bottom: 70px; }
+  #tercero .prod3 {
+    width: 100%;
+    margin-bottom: 70px; }
+  #tercero .prod4 {
+    width: 100%;
+    margin-bottom: 70px; } }
 
 /*# sourceMappingURL=main.css.map */
