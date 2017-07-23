@@ -6017,5 +6017,30 @@ body {
   #tercero .prod4 {
     width: 100%;
     margin-bottom: 70px; } }
+#cuarto div h1 {
+  color: #3C4858;
+  padding-top: 70px;
+  font-weight: bold; }
+#cuarto div h4 {
+  color: #ADADAD;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 50px;
+  padding-top: 20px; }
+#cuarto div img {
+  border-radius: 10px; }
+
+#quinto div h1 {
+  color: #3C4858;
+  padding-top: 70px;
+  font-weight: bold; }
+#quinto div h4 {
+  color: #ADADAD;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 50px;
+  padding-top: 20px; }
+#quinto div img {
+  border-radius: 10px; }
 
 /*# sourceMappingURL=main.css.map */
