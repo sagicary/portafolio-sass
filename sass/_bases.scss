@@ -1,5 +1,7 @@
 body{
 	background-color: #E5E5E5;
+	overflow-x: hidden;
+	margin: 0 auto;
 }
 .navbar-default{
 	background-color: $transparente;
@@ -12,16 +14,19 @@ body{
 				border: $transparente;
 				padding: 15px 15px 15px 15px;
 				margin: 15px;
-				font-size: 12px;
+				font-size: $font12;
 			}
 		li{
 			a{
 				color: $blanco;
-				font-size: 12px;
+				font-size: $font12;
 				padding-top: 30px;
 				i{
 					padding-right: $iconright;
 				}
+			}
+			i{
+				padding-right: $iconright;
 			}
 		}
 	}
@@ -34,7 +39,6 @@ body{
 		}
 	}
 }
-
 /*.navbar{
 	z-index: 1;
 }*/
@@ -48,17 +52,15 @@ body{
 		font-size: 70px;
 	}
 	h4{
-		padding-top: 20px;
+		padding-top: $padding20;
 	}
 }
-
 .one{
 	padding-bottom: 20%;
 }
 .two{
 	padding-bottom: 15%;
 }
-
 .carousel-inner{
 	div{
 		.btn-default{
@@ -67,17 +69,12 @@ body{
 			border: $transparente;
 			padding: 15px 30px 15px 30px;
 			margin: 50px;
-			font-size: 12px;
+			font-size: $font12;
 		}
 	}
 }
 
-#uno{
-	background-color: white;
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
+/*HACIENDO RESPONSIVE EL NAV Y CARRUSEL*/
 @media (max-width: 768px){
 	.carousel-caption{
 		h1{
@@ -86,17 +83,16 @@ body{
 			padding-top: 50px;
 		}
 		h4{
-			font-size: 12px;
+			font-size: $font12;
 			padding-top: 5px;
 		}
-
 	}
 	.one{
-	padding-top: 100px;
+	padding-top: $cien;
 	padding-bottom: 0px;
 	}
 	.two{
-	padding-top: 100px;
+	padding-top: $cien;
 	padding-bottom: 0px;
 	}
 	.carousel-inner{
@@ -104,11 +100,58 @@ body{
 			.btn-default{
 				padding: 10px 20px 10px 20px;
 				margin: 5px;
-				font-size: 12px;
+				font-size: $font12;
 			}
 		}
 	}
-	.item{
-		height: 40vh;
+}
+/*FIN DEL MEDIA PARA CARRUSEL Y NAV*/
+
+/*Primer Item*/
+#centro{
+	background-color: $blanco;
+	margin-top: -50px;
+	div{
+		h3{
+			color: #B5B5B5;
+			font-size: 18px;
+			padding: 50px 150px;
+		}
+		i{
+			font-size: 50px;
+			padding-bottom: 20px;
+			cursor: pointer;
+		}
+		.fa-th{
+			color: #E91E63;
+		}
+		.fa-th-list{
+			color: #00BCD4;
+		}
+		.fa-bars{
+			color: #4CAF50;
+		}
+		h4{
+			color: #3C4858;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		p{
+			color: #B5B5B5;
+			padding-bottom: 20px;
+		}
 	}
 }
+@media (max-width: 768px){
+	#centro{
+		margin-top: -10px;
+		margin-left: 5px;
+		margin-right: 5px;
+		div{
+			h3{
+				padding: 5px;
+			}
+		}
+	}
+}
+

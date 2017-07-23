@@ -5798,7 +5798,9 @@ button.close {
   .hidden-print {
     display: none !important; } }
 body {
-  background-color: #E5E5E5; }
+  background-color: #E5E5E5;
+  overflow-x: hidden;
+  margin: 0 auto; }
 
 .navbar-default {
   background-color: transparent;
@@ -5817,6 +5819,8 @@ body {
     padding-top: 30px; }
     .navbar-default .navbar-right li a i {
       padding-right: 10px; }
+  .navbar-default .navbar-right li i {
+    padding-right: 10px; }
   .navbar-default .navbar-header .navbar-brand {
     color: white;
     padding: 20px;
@@ -5850,11 +5854,7 @@ body {
   margin: 50px;
   font-size: 12px; }
 
-#uno {
-  background-color: white;
-  margin-left: 25px;
-  margin-right: 25px; }
-
+/*HACIENDO RESPONSIVE EL NAV Y CARRUSEL*/
 @media (max-width: 768px) {
   .carousel-caption h1 {
     font-weight: bolder;
@@ -5875,9 +5875,40 @@ body {
   .carousel-inner div .btn-default {
     padding: 10px 20px 10px 20px;
     margin: 5px;
-    font-size: 12px; }
+    font-size: 12px; } }
+/*FIN DEL MEDIA PARA CARRUSEL Y NAV*/
+/*Primer Item*/
+#centro {
+  background-color: white;
+  margin-top: -50px; }
+  #centro div h3 {
+    color: #B5B5B5;
+    font-size: 18px;
+    padding: 50px 150px; }
+  #centro div i {
+    font-size: 50px;
+    padding-bottom: 20px;
+    cursor: pointer; }
+  #centro div .fa-th {
+    color: #E91E63; }
+  #centro div .fa-th-list {
+    color: #00BCD4; }
+  #centro div .fa-bars {
+    color: #4CAF50; }
+  #centro div h4 {
+    color: #3C4858;
+    font-weight: bold;
+    cursor: pointer; }
+  #centro div p {
+    color: #B5B5B5;
+    padding-bottom: 20px; }
 
-  .item {
-    height: 40vh; } }
+@media (max-width: 768px) {
+  #centro {
+    margin-top: -10px;
+    margin-left: 5px;
+    margin-right: 5px; }
+    #centro div h3 {
+      padding: 5px; } }
 
 /*# sourceMappingURL=main.css.map */
