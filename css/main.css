@@ -6042,6 +6042,42 @@ body {
   padding-bottom: 50px;
   padding-top: 20px; }
 #quinto div img {
-  border-radius: 10px; }
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+#quinto div div div h6 {
+  color: #878787;
+  font-weight: bold; }
+#quinto div div div h4 {
+  color: #3C4858;
+  font-weight: bold;
+  padding-bottom: 5px; }
+#quinto div div div div i {
+  font-size: 16px;
+  padding-right: 25px;
+  font-weight: bold; }
+
+.team {
+  margin-bottom: 50px; }
+
+.fa-facebook {
+  color: #3B5998; }
+
+.fa-twitter {
+  color: #55ACEE; }
+
+.fa-linkedin {
+  color: #0976B4; }
+
+.fa-dribbble {
+  color: #F18BB3; }
+
+.fa-pinterest {
+  color: #CC2127; }
+
+.fa-github-square {
+  color: #333333; }
+
+.fa-google-plus {
+  color: #DF5544; }
 
 /*# sourceMappingURL=main.css.map */

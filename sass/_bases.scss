@@ -314,6 +314,7 @@ body{
 		}
 	}
 }
+
 #quinto{
 	div{
 		h1{
@@ -330,7 +331,52 @@ body{
 		}
 		img{
 			border-radius: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		div{
+			div{
+				h6{
+					color: #878787;
+					font-weight: bold;
+				}
+				h4{
+					color: $colortitulo;
+					font-weight: bold;
+					padding-bottom: 5px;
+				}
+				div{
+					i{
+						font-size: 16px;
+						padding-right: 25px;
+						font-weight: bold;
+					}
+				}
+			}
 		}
 	}
+}
+.team{
+	margin-bottom: 50px;
+}
+.fa-facebook{
+	color: #3B5998;
+}
+.fa-twitter{
+	color: #55ACEE;
+}
+.fa-linkedin{
+	color: #0976B4;
+}
+.fa-dribbble{
+	color: #F18BB3;
+}
+.fa-pinterest{
+	color: #CC2127;
+}
+.fa-github-square{
+	color: #333333;
+}
+.fa-google-plus{
+	color: #DF5544;
 }
 
