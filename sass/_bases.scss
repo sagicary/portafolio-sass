@@ -155,3 +155,22 @@ body{
 	}
 }
 
+#segundo{
+	margin-top: 20px;
+	background-image: url(../img/img_city.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	padding-top: 50px;
+	div{
+		h1{
+			color: $blanco;
+			font-weight: bold;
+			padding-bottom: $padding20;
+		}
+		p{
+			color: $blanco;
+		}
+	}
+}
+

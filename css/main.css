@@ -5910,5 +5910,18 @@ body {
     margin-right: 5px; }
     #centro div h3 {
       padding: 5px; } }
+#segundo {
+  margin-top: 20px;
+  background-image: url(../img/img_city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  padding-top: 50px; }
+  #segundo div h1 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px; }
+  #segundo div p {
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */
