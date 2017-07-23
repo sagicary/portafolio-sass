@@ -161,8 +161,11 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center bottom;
+	background-attachment: fixed;
 	padding-top: 50px;
 	div{
+		padding-left: $padding20;
+		padding-right: $padding20;
 		h1{
 			color: $blanco;
 			font-weight: bold;
@@ -170,7 +173,38 @@ body{
 		}
 		p{
 			color: $blanco;
+			font-size: 16px;
+		}
+		iframe{
+			border: 2px solid #9A9A9A;
+			width: 60%;
+			height: 400px;
+			margin-bottom: 50px;
+			margin-top: 50px;
 		}
 	}
+}
+
+@media (max-width: 768px){
+	#segundo{
+		div{
+			iframe{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+
+#segundo:before{
+	background-color: rgba(0, 0, 0, 0.8);
+	content: "";
+	display: block;
+	position: absolute;
+	/* Todas las posiciones a cero */
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
