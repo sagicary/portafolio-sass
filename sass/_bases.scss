@@ -528,6 +528,7 @@ body{
 	right: 0;
 }
 #noveno{
+	padding-bottom: 50px;
 	div{
 		h1{
 			color: $colortitulo;
@@ -535,7 +536,7 @@ body{
 			font-weight: bold;
 		}
 		h4{
-			color: $colortitulo;
+			color: #ADADAD;
 			font-size: 16px;
 			font-weight: normal;
 			padding-bottom: 50px;
@@ -544,6 +545,36 @@ body{
 		h6{
 			color: #878787;
 			font-weight: bold;
+		}
+		img{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.color1{
+			color: #E91E63;
+			padding-top: 10px;
+		}
+		.color2{
+			color: #6ED8E6;
+			padding-top: 10px;
+		}
+		.color3{
+			color: #F34235;
+			padding-top: 10px;
+		}
+		.color{
+			color: $colortitulo;
+			font-weight: bolder;
+			padding-top: 5px;
+			padding-bottom: 10px;
+		}
+		p{
+			a{
+				color: $colortitulo;
+			}
+			a:hover{
+				color: #E91E63;
+				text-decoration: none;
+			}
 		}
 	}
 }

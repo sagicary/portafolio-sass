@@ -6189,18 +6189,41 @@ body {
   left: 0;
   right: 0; }
 
-#noveno div h1 {
-  color: white;
-  padding-top: 70px;
-  font-weight: bold; }
-#noveno div h4 {
-  color: white;
-  font-size: 16px;
-  font-weight: normal;
-  padding-bottom: 50px;
-  padding-top: 20px; }
-#noveno div h6 {
-  color: #878787;
-  font-weight: bold; }
+#noveno {
+  padding-bottom: 50px; }
+  #noveno div h1 {
+    color: #3C4858;
+    padding-top: 70px;
+    font-weight: bold; }
+  #noveno div h4 {
+    color: #ADADAD;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 50px;
+    padding-top: 20px; }
+  #noveno div h6 {
+    color: #878787;
+    font-weight: bold; }
+  #noveno div img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  #noveno div .color1 {
+    color: #E91E63;
+    padding-top: 10px; }
+  #noveno div .color2 {
+    color: #6ED8E6;
+    padding-top: 10px; }
+  #noveno div .color3 {
+    color: #F34235;
+    padding-top: 10px; }
+  #noveno div .color {
+    color: #3C4858;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 10px; }
+  #noveno div p a {
+    color: #3C4858; }
+  #noveno div p a:hover {
+    color: #E91E63;
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
