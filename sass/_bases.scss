@@ -498,9 +498,15 @@ body{
 		div{
 			background-color: $blanco;
 			div{
+				input{
+					margin-top: $padding20;
+					border: 0px;
+					border-bottom: 1px solid grey;
+				}
 				i{
 					color: black;
 					font-size: 16px;
+					margin-top: 30px;
 				}
 				.btn-default{
 					background-color: $rosadoboton;
@@ -667,6 +673,51 @@ body{
 		.textarea{
 			border: 0px;
 			border-bottom: 1px solid grey;
+		}
+	}
+}
+#footer{
+	background-color: #323437;
+	padding-bottom: $padding20;
+	div{
+		h3{
+			color: $blanco;
+			padding-left: 0px;
+			font-weight: bolder;
+			padding-bottom: 10px;
+		}
+		p{
+			color: #868787;
+			font-weight: normal;
+			i{
+				font-size: 18px;
+				color: $blanco;
+				padding-right: 10px;
+			}
+		}
+		.arriba{
+			margin-top: $padding20;
+		}
+		div{
+			a{
+				color: $blanco;
+				padding: 10px;
+				font-weight: bold;
+				font-size: 12px;
+			}
+			a:hover{
+				text-decoration: none;
+				color: #E91E63;
+			}
+			h6{
+				color: $blanco;
+				}
+			div{
+				img{
+					width: 60px;
+					height: 60px;
+				}
+			}
 		}
 	}
 }

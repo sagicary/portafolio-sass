@@ -6165,9 +6165,14 @@ body {
     padding-top: 20px; }
   #octavo div div {
     background-color: white; }
+    #octavo div div div input {
+      margin-top: 20px;
+      border: 0px;
+      border-bottom: 1px solid grey; }
     #octavo div div div i {
       color: black;
-      font-size: 16px; }
+      font-size: 16px;
+      margin-top: 30px; }
     #octavo div div div .btn-default {
       background-color: #E91E63;
       color: white;
@@ -6302,5 +6307,36 @@ body {
   .formulario div .textarea {
     border: 0px;
     border-bottom: 1px solid grey; }
+
+#footer {
+  background-color: #323437;
+  padding-bottom: 20px; }
+  #footer div h3 {
+    color: white;
+    padding-left: 0px;
+    font-weight: bolder;
+    padding-bottom: 10px; }
+  #footer div p {
+    color: #868787;
+    font-weight: normal; }
+    #footer div p i {
+      font-size: 18px;
+      color: white;
+      padding-right: 10px; }
+  #footer div .arriba {
+    margin-top: 20px; }
+  #footer div div a {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px; }
+  #footer div div a:hover {
+    text-decoration: none;
+    color: #E91E63; }
+  #footer div div h6 {
+    color: white; }
+  #footer div div div img {
+    width: 60px;
+    height: 60px; }
 
 /*# sourceMappingURL=main.css.map */
