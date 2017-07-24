@@ -6080,4 +6080,51 @@ body {
 .fa-google-plus {
   color: #DF5544; }
 
+#sexto {
+  background-color: #F0F0F0; }
+  #sexto div h1 {
+    color: #3C4858;
+    padding-top: 70px;
+    font-weight: bold;
+    padding-bottom: 20px; }
+  #sexto div p {
+    color: #ADADAD;
+    padding-left: 20px; }
+  #sexto div .precio1 {
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  #sexto div .precio2 {
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 0px transparent;
+    background-color: transparent; }
+  #sexto div h6 {
+    color: #A2A2A2;
+    font-weight: bold; }
+  #sexto div .precio {
+    font-size: 50px;
+    color: #3C4858;
+    padding: 5px;
+    font-weight: bolder; }
+  #sexto div p {
+    padding-bottom: 0px; }
+    #sexto div p span {
+      color: #3C4858;
+      font-weight: bolder; }
+  #sexto div .btn-default {
+    background-color: #E91E63;
+    color: white;
+    border: transparent;
+    padding: 15px 30px 15px 30px;
+    margin: 20px;
+    font-size: 12px; }
+
+@media (max-width: 768px) {
+  #sexto div .precio1 {
+    margin-left: 10px; }
+  #sexto div .precio2 {
+    margin-left: 10px; } }
+
 /*# sourceMappingURL=main.css.map */
