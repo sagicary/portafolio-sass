@@ -6150,4 +6150,57 @@ body {
     font-weight: bold;
     padding-bottom: 5px; }
 
+#octavo {
+  background-image: url(../img/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px; }
+  #octavo div h1 {
+    color: white;
+    padding-top: 70px;
+    font-weight: bold; }
+  #octavo div h4 {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 50px;
+    padding-top: 20px; }
+  #octavo div div {
+    background-color: white; }
+    #octavo div div div i {
+      color: black;
+      font-size: 16px; }
+    #octavo div div div .btn-default {
+      background-color: #E91E63;
+      color: white;
+      border: transparent;
+      padding: 15px 30px 15px 30px;
+      font-size: 12px;
+      margin: 10px; }
+
+#octavo:before {
+  background-color: rgba(0, 0, 0, 0.8);
+  content: "";
+  display: block;
+  position: absolute;
+  /* Todas las posiciones a cero */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+#noveno div h1 {
+  color: white;
+  padding-top: 70px;
+  font-weight: bold; }
+#noveno div h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 50px;
+  padding-top: 20px; }
+#noveno div h6 {
+  color: #878787;
+  font-weight: bold; }
+
 /*# sourceMappingURL=main.css.map */

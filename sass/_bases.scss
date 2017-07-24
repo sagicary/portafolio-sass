@@ -479,3 +479,71 @@ body{
 		}
 	}
 }
+#octavo{
+	background-image: url(../img/about.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 30px;
+	div{
+		h1{
+			color: $blanco;
+			padding-top: 70px;
+			font-weight: bold;
+		}
+		h4{
+			color: $blanco;
+			font-size: 16px;
+			font-weight: normal;
+			padding-bottom: 50px;
+			padding-top: $padding20;
+		}
+		div{
+			background-color: $blanco;
+			div{
+				i{
+					color: black;
+					font-size: 16px;
+				}
+				.btn-default{
+					background-color: $rosadoboton;
+					color: $blanco;
+					border: $transparente;
+					padding: 15px 30px 15px 30px;
+					font-size: $font12;
+					margin: 10px;
+				}
+			}
+		}
+	}
+}
+#octavo:before{
+	background-color: rgba(0, 0, 0, 0.8);
+	content: "";
+	display: block;
+	position: absolute;
+	/* Todas las posiciones a cero */
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#noveno{
+	div{
+		h1{
+			color: $colortitulo;
+			padding-top: 70px;
+			font-weight: bold;
+		}
+		h4{
+			color: $colortitulo;
+			font-size: 16px;
+			font-weight: normal;
+			padding-bottom: 50px;
+			padding-top: $padding20;
+		}
+		h6{
+			color: #878787;
+			font-weight: bold;
+		}
+	}
+}
