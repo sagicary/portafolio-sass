@@ -6126,5 +6126,28 @@ body {
     margin-left: 10px; }
   #sexto div .precio2 {
     margin-left: 10px; } }
+#septimo {
+  padding-bottom: 50px; }
+  #septimo div h1 {
+    color: #3C4858;
+    padding-top: 70px;
+    font-weight: bold; }
+  #septimo div h4 {
+    color: #ADADAD;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 50px;
+    padding-top: 20px; }
+  #septimo div img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  #septimo div div h6 {
+    color: #878787;
+    font-weight: bold; }
+  #septimo div div h4 {
+    color: #3C4858;
+    font-weight: bold;
+    padding-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */

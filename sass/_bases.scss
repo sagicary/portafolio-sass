@@ -446,3 +446,36 @@ body{
 		}
 	}
 }
+#septimo{
+	padding-bottom: 50px;
+	div{
+		h1{
+			color: $colortitulo;
+			padding-top: 70px;
+			font-weight: bold;
+		}
+		h4{
+			color: #ADADAD;
+			font-size: 16px;
+			font-weight: normal;
+			padding-bottom: 50px;
+			padding-top: $padding20;
+		}
+		img{
+			width: 100px;
+			height: 100px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		div{
+			h6{
+				color: #878787;
+				font-weight: bold;
+			}
+			h4{
+				color: $colortitulo;
+				font-weight: bold;
+				padding-bottom: 5px;
+			}
+		}
+	}
+}
